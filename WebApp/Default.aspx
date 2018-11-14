@@ -9,8 +9,11 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:Label ID="DescriptiveLabel" runat="server">The current time on the server is:</asp:Label><br />
-        <asp:Label ID="CurrentTimeLabel" runat="server"></asp:Label>
+        <asp:Label ID="DescriptiveLabel" runat="server">The current time on the server is:</asp:Label><br /><br />
+        <asp:Label ID="CurrentTimeLabel" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Arial Black" Font-Size="XX-Large" Font-Underline="True"></asp:Label>
+        <br />
+        <br />
+        <asp:Button ID="UpdateButton" runat="server" Text="Get Time" />
     </div>
     </form>
 </body>
